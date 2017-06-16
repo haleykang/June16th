@@ -12,11 +12,26 @@
         android:text="@string/bookEx2"
         android:textSize="20dp"/>
 
-    <Button
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_line"/>
+
+    <ToggleButton
         android:id="@+id/button_view"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="버튼"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
         android:onClick="onMyClick"/>
+
+    <Button
+        android:id="@+id/bt_test"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_selector"
+        android:text="button"
+        android:textColor="@drawable/button_text_color_selector"/>
+
 
 </LinearLayout>
