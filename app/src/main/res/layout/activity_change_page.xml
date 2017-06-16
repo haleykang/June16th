@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.haley.test.june16th.ChangePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/today"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_toMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/firstClass"/>
+
+    <TextView
+        android:id="@+id/tv_toTestEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/bookEx1"/>
+
+    <TextView
+        android:id="@+id/tv_toTestTouchListner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/bookEx2"/>
+
+    <TextView
+        android:id="@+id/tv_toTestKeyEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/bookEx3"/>
+
+</LinearLayout>

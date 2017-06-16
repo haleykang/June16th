@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">June16th</string>
+    <string name="today">2017-06-16</string>
+    <string name="firstClass">1.TAB 사용 예제</string>
+    <string name="bookEx1">2. 교재 [ 이벤트 ]</string>
+    <string name="bookEx2">3. 교재 [ 리스너 ]</string>
+    <string name="bookEx3">4. 교재 [ 키 이벤트 ]</string>
+</resources>

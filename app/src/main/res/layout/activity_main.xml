@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.haley.test.june16th.MainActivity">
+
+    <TabHost
+        android:id="@+id/tab_host01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--tab content 1-->
+                    <LinearLayout
+                        android:id="@+id/tab_content01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tab_content01Tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TAB CONTENT 01"/>
+
+                    </LinearLayout>
+
+                    <!--tab content 2-->
+                    <LinearLayout
+                        android:id="@+id/tab_content02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tab_content02Tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TAB CONTENT 02"/>
+
+                    </LinearLayout>
+
+                    <!--tab content 3-->
+                    <LinearLayout
+                        android:id="@+id/tab_content03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tab_content03Tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TAB CONTENT 03"/>
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+            </TabWidget>
+
+
+        </LinearLayout>
+
+    </TabHost>
+
+</LinearLayout>
